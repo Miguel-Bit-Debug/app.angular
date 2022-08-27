@@ -1,0 +1,12 @@
+<div *ngFor="let produto of produtos">
+  <div class="container mt-5">
+    <div class="card text-left">
+      <img class="card-img-top" src="holder.js/100px180/" alt="" />
+      <div class="card-body">
+        <h4 class="card-title">{{produto.nome}}</h4>
+        <h6 class="card-title">{{produto.descricao}}</h6>
+        <p class="card-text">Preço: R${{produto.valor}}</p>
+      </div>
+    </div>
+  </div>
+</div>
